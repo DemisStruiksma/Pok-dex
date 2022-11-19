@@ -8,7 +8,7 @@ export default function Home({ children, title }) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className="container mx-auto max-w-2xl pt-12 min-h-screen">
+            <main className="container mx-auto max-w-screen-xl py-12 min-h-screen">
                 {children}
             </main>
         </div>
